@@ -62,6 +62,7 @@ while True:
     if cv2.waitKey(20) &0xFF==ord('q'):
         break
 
+#Release and Destroy all created windows
 cap.release()
 cv2.destroyAllWindows()
 
